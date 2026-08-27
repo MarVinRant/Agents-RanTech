@@ -1,0 +1,10 @@
+.brand-mark {
+  background: #071827 url('/brand/symbol-light.svg') center / 100% 100% no-repeat;
+  color: transparent;
+  height: 34px;
+  width: 34px;
+}
+
+.brand-copy {
+  display: block;
+}
