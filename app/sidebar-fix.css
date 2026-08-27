@@ -1,5 +1,8 @@
 .sidebar { flex: 0 0 252px; }
 .sidebar.collapsed { flex-basis: 78px !important; width: 78px !important; min-width: 78px; }
+.sidebar.collapsed .brand { gap: 0; justify-content: center; padding-left: 0; padding-right: 0; }
+.sidebar.collapsed .brand-mark { flex: 0 0 34px; height: 34px; width: 34px; }
+.sidebar.collapsed .brand-copy { display: none; }
 .sidebar .nav-item { background: transparent; color: #afc2d1; }
 .sidebar .nav-item:hover, .sidebar .nav-item.active { background: #ffffff1a; color: #fff; }
 .mobile-menu-button.menu-hidden { display: none; }

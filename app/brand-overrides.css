@@ -8,3 +8,14 @@
 .brand-copy {
   display: block;
 }
+
+.sidebar.collapsed .brand-mark {
+  background: #071827 url('/brand/symbol-light.svg') center / 100% 100% no-repeat;
+  flex: 0 0 34px;
+  height: 34px;
+  width: 34px;
+}
+
+.sidebar.collapsed .brand-copy {
+  display: none;
+}
