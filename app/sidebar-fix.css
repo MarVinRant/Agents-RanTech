@@ -1,0 +1,12 @@
+.sidebar { flex: 0 0 252px; }
+.sidebar.collapsed { flex-basis: 78px !important; width: 78px !important; min-width: 78px; }
+.sidebar .nav-item { background: transparent; color: #afc2d1; }
+.sidebar .nav-item:hover, .sidebar .nav-item.active { background: #ffffff1a; color: #fff; }
+.mobile-menu-button.menu-hidden { display: none; }
+@media (max-width: 720px) {
+  .mobile-menu-button { display: grid; z-index: 101; }
+  .mobile-menu-button.menu-hidden { display: none; }
+  .sidebar { display: flex; flex: 0 0 252px; width: 252px !important; left: -270px; visibility: hidden; z-index: 100; }
+  .sidebar.mobile-open { display: flex; left: 0; visibility: visible; width: 252px !important; }
+  .sidebar-backdrop { z-index: 99; }
+}
