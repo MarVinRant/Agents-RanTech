@@ -1,0 +1,5 @@
+.modal label { color: var(--muted); display: grid; font-size: 11px; gap: 6px; margin-top: 7px; }
+.modal input, .modal select, .modal textarea { background: #fff; border: 1px solid var(--line); border-radius: 9px; color: var(--ink); font: inherit; font-size: 12px; padding: 11px 13px; width: 100%; }
+.modal textarea { resize: vertical; }
+.conversation-head select { background: #fff; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); font-size: 11px; padding: 8px; }
+@media (max-width: 720px) { .conversation-head { align-items: flex-start; flex-wrap: wrap; } .conversation-head select { margin-left: 46px; } }
